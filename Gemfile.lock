@@ -2,6 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorator (0.1)
+<<<<<<< HEAD
+=======
+    ffi (1.9.10)
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
     ffi (1.9.10-x64-mingw32)
     jekyll (3.1.2)
       colorator (~> 0.1)
@@ -12,6 +16,11 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+<<<<<<< HEAD
+=======
+    jekyll-redirect-from (0.10.0)
+      jekyll (>= 2.0)
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
     jekyll-sass-converter (1.4.0)
       sass (~> 3.4)
     jekyll-sitemap (0.10.0)
@@ -23,19 +32,38 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.5)
+<<<<<<< HEAD
+=======
+    rake (10.5.0)
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.21)
+<<<<<<< HEAD
 
 PLATFORMS
+=======
+    scss_lint (0.47.1)
+      rake (>= 0.9, < 11)
+      sass (~> 3.4.15)
+
+PLATFORMS
+  ruby
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
   x64-mingw32
 
 DEPENDENCIES
   jekyll (~> 3.1.2)
+<<<<<<< HEAD
   jekyll-sitemap (~> 0.10.0)
+=======
+  jekyll-redirect-from (~> 0.10.0)
+  jekyll-sitemap (~> 0.10.0)
+  scss_lint (~> 0.47.1)
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
 
 BUNDLED WITH
    1.11.2

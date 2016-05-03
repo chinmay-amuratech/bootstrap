@@ -2,6 +2,9 @@
 markdown:         kramdown
 highlighter:      rouge
 
+kramdown:
+  auto_ids: true
+
 # Permalinks
 permalink:        pretty
 
@@ -10,21 +13,36 @@ source:           docs
 destination:      _gh_pages
 host:             0.0.0.0
 port:             9001
+baseurl:          ""
 url:              http://getbootstrap.com
 encoding:         UTF-8
+exclude:          [assets/scss/]
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
 
 gems:
   - jekyll-sitemap
 
 # Custom vars
+<<<<<<< HEAD
 current_version:  3.3.6
+=======
+current_version:  4.0.0-alpha.2
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
 repo:             https://github.com/twbs/bootstrap
-sass_repo:        https://github.com/twbs/bootstrap-sass
+slack:            https://bootstrap-slack.herokuapp.com
 
 download:
+<<<<<<< HEAD
   source:         https://github.com/twbs/bootstrap/archive/v3.3.6.zip
   dist:           https://github.com/twbs/bootstrap/releases/download/v3.3.6/bootstrap-3.3.6-dist.zip
   sass:           https://github.com/twbs/bootstrap-sass/archive/v3.3.6.tar.gz
+=======
+  source:         https://github.com/twbs/bootstrap/archive/v4.0.0-alpha.2.zip
+  dist:           https://github.com/twbs/bootstrap/releases/download/v4.0.0-alpha.2/bootstrap-4.0.0-alpha.2-dist.zip
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
 
 blog:             http://blog.getbootstrap.com
 expo:             http://expo.getbootstrap.com
@@ -32,9 +50,20 @@ themes:           http://themes.getbootstrap.com
 
 cdn:
   # See https://www.srihash.org for info on how to generate the hashes
+<<<<<<< HEAD
   css:            https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css
   css_hash:       "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
   css_theme:      https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css
   css_theme_hash: "sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r"
   js:             https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js
   js_hash:        "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+=======
+  css:            https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css
+  css_hash:       "sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
+  js:             https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js
+  js_hash:        "sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+  jquery:         https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
+  jquery_hash:    "sha384-mXQoED/lFIuocc//nss8aJOIrz7X7XruhR6bO+sGceiSyMELoVdZkN7F0oYwcFH+"
+  tether:         https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js
+  tether_hash:    "sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB"
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781

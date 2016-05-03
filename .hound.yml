@@ -1,12 +1,31 @@
 fail_on_violations: true
 
 scss:
+<<<<<<< HEAD
   enabled: false
 
 javascript:
   enabled: true
   config_file: js/.jshintrc
+=======
+  config_file: scss/.scss-lint.yml
+  enabled: true
+  ignore_file: scss/_normalize.scss
+
+javascript:
+  enabled: false
+
+eslint:
+  enabled: true
+  config_file: js/.eslintrc
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
 
 jscs:
   enabled: true
   config_file: js/.jscsrc
+<<<<<<< HEAD
+=======
+
+ruby:
+  enabled: false
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781

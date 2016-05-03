@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 'use strict';
 
+<<<<<<< HEAD
 /* globals Set */
+=======
+>>>>>>> 1a6d0cc446259cf86d73bf7437f2ca3b095f6781
 /*!
  * Script to update version number references in the project.
  * Copyright 2015 Twitter, Inc.
